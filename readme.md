@@ -23,3 +23,7 @@ You should see a response like this `Docker version 20.10.12, build e91ed57` and
 Then, run `docker-compose up` from the project root directory to load Anythink's backend and frontend.
 
 You can confirm that Docker is working correctly and that the backend is running and able to connect to your local database by pointing your browser to (http://localhost:3000/api/ping)
+
+If after pointing your browser to (http://localhost:3000/api/ping), you see a response like, 
+
+`ActiveRecord::PendingMigrationError`, just click on the *Rerun migrations* button on your browser page to resolve the pending migrations.
